@@ -6,7 +6,7 @@
  */
 function sumValues(num1, num2, add) {
     if (add) {
-        const result = 0;
+        let result = 0;
 
         result = num1 + num2;
 
@@ -31,7 +31,7 @@ function discountPrices(prices, discount) {
         discounted.push(discountedPrice);
     }
 
-    return discounted;
+    return false;
 }
 
 module.exports = {sumValues, discountPrices};
